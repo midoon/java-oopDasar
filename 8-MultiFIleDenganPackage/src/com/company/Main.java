@@ -1,9 +1,13 @@
 package com.company;
 
+import com.tutorial.Console;
+
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.println("Main.main");
+        Player player1 = new Player("joko");
+
+        Console.log(player1.getName());
     }
 }
